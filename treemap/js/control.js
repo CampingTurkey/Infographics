@@ -12,7 +12,7 @@ $( document ).ready(function() {
 		var nested_data = d3.nest()
 			.key(function(d)  { return d.Departure; })
 			.key(function(d)  { return d.Destination: })
-			.key(function(d)  { return d.Supplier_Name; })
+			.key(function(d)  { return d.Supplier_name; })
 			.entries(csv_data);
 
 		// Creat the root node for the treemap
